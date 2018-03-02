@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8CEE4B820486C9C0004AB9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CEE4B720486C9C0004AB9D /* AppDelegate.m */; };
+		E8CEE4BC20486CA40004AB9D /* CommandLineTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CEE4BB20486CA40004AB9D /* CommandLineTask.m */; };
+		E8CEE4C720486CB90004AB9D /* UXToolbarStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CEE4C120486CB90004AB9D /* UXToolbarStatusView.m */; };
+		E8CEE4C820486CB90004AB9D /* UXViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CEE4C320486CB90004AB9D /* UXViewFactory.m */; };
+		E8CEE4C920486CB90004AB9D /* UXWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CEE4C620486CB90004AB9D /* UXWindowController.m */; };
+		E8CEE4D820486CCB0004AB9D /* SPWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CEE4CF20486CCB0004AB9D /* SPWindowController.m */; };
+		E8CEE4D920486CCB0004AB9D /* SPRawLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CEE4D220486CCB0004AB9D /* SPRawLogViewController.m */; };
+		E8CEE4DA20486CCB0004AB9D /* SPTableLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CEE4D420486CCB0004AB9D /* SPTableLogViewController.m */; };
+		E8CEE4DB20486CCB0004AB9D /* SPTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CEE4D620486CCB0004AB9D /* SPTabViewController.m */; };
+		E8CEE4DD20486CD50004AB9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CEE4DC20486CD50004AB9D /* main.m */; };
+		E8CEE4E020486D5C0004AB9D /* SPStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CEE4DF20486D5C0004AB9D /* SPStyleKit.m */; };
+		E8F1F3502048952F00CEFF90 /* SPLineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F1F34F2048952F00CEFF90 /* SPLineTableViewCell.m */; };
+		E8F1F3602048AD3400CEFF90 /* SPLineItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F1F35F2048AD3400CEFF90 /* SPLineItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E8CEE4562048364B0004AB9D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E8CEE4582048364B0004AB9D /* swift-progress */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-progress"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8CEE4B620486C9C0004AB9D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Sources/swift-progress/AppDelegate.h"; sourceTree = "<group>"; };
+		E8CEE4B720486C9C0004AB9D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Sources/swift-progress/AppDelegate.m"; sourceTree = "<group>"; };
+		E8CEE4BA20486CA40004AB9D /* CommandLineTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandLineTask.h; sourceTree = "<group>"; };
+		E8CEE4BB20486CA40004AB9D /* CommandLineTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandLineTask.m; sourceTree = "<group>"; };
+		E8CEE4C020486CB90004AB9D /* UXToolbarStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXToolbarStatusView.h; sourceTree = "<group>"; };
+		E8CEE4C120486CB90004AB9D /* UXToolbarStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXToolbarStatusView.m; sourceTree = "<group>"; };
+		E8CEE4C220486CB90004AB9D /* UXViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXViewFactory.h; sourceTree = "<group>"; };
+		E8CEE4C320486CB90004AB9D /* UXViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXViewFactory.m; sourceTree = "<group>"; };
+		E8CEE4C520486CB90004AB9D /* UXWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXWindowController.h; sourceTree = "<group>"; };
+		E8CEE4C620486CB90004AB9D /* UXWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXWindowController.m; sourceTree = "<group>"; };
+		E8CEE4CE20486CCB0004AB9D /* SPWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPWindowController.h; sourceTree = "<group>"; };
+		E8CEE4CF20486CCB0004AB9D /* SPWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPWindowController.m; sourceTree = "<group>"; };
+		E8CEE4D120486CCB0004AB9D /* SPRawLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRawLogViewController.h; sourceTree = "<group>"; };
+		E8CEE4D220486CCB0004AB9D /* SPRawLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRawLogViewController.m; sourceTree = "<group>"; };
+		E8CEE4D320486CCB0004AB9D /* SPTableLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTableLogViewController.h; sourceTree = "<group>"; };
+		E8CEE4D420486CCB0004AB9D /* SPTableLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTableLogViewController.m; sourceTree = "<group>"; };
+		E8CEE4D520486CCB0004AB9D /* SPTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTabViewController.h; sourceTree = "<group>"; };
+		E8CEE4D620486CCB0004AB9D /* SPTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTabViewController.m; sourceTree = "<group>"; };
+		E8CEE4DC20486CD50004AB9D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Sources/swift-progress/main.m"; sourceTree = "<group>"; };
+		E8CEE4DE20486D5B0004AB9D /* SPStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPStyleKit.h; sourceTree = "<group>"; };
+		E8CEE4DF20486D5C0004AB9D /* SPStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPStyleKit.m; sourceTree = "<group>"; };
+		E8F1F34E2048952F00CEFF90 /* SPLineTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPLineTableViewCell.h; sourceTree = "<group>"; };
+		E8F1F34F2048952F00CEFF90 /* SPLineTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPLineTableViewCell.m; sourceTree = "<group>"; };
+		E8F1F35E2048AD3400CEFF90 /* SPLineItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPLineItem.h; sourceTree = "<group>"; };
+		E8F1F35F2048AD3400CEFF90 /* SPLineItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPLineItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8CEE4552048364B0004AB9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8CEE44F2048364B0004AB9D = {
+			isa = PBXGroup;
+			children = (
+				E8CEE4B620486C9C0004AB9D /* AppDelegate.h */,
+				E8CEE4B720486C9C0004AB9D /* AppDelegate.m */,
+				E8CEE4DC20486CD50004AB9D /* main.m */,
+				E8CEE4BD20486CB90004AB9D /* Core */,
+				E8F1F35D2048AD2800CEFF90 /* Model */,
+				E8CEE4D020486CCB0004AB9D /* ViewControllers */,
+				E8F1F34D2048951000CEFF90 /* Views */,
+				E8CEE4CD20486CCB0004AB9D /* WindowControllers */,
+				E8CEE4B920486CA40004AB9D /* CommandLine */,
+				E8CEE4CA20486CCB0004AB9D /* PaintCode */,
+				E8CEE4592048364B0004AB9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8CEE4592048364B0004AB9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8CEE4582048364B0004AB9D /* swift-progress */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8CEE4B920486CA40004AB9D /* CommandLine */ = {
+			isa = PBXGroup;
+			children = (
+				E8CEE4BA20486CA40004AB9D /* CommandLineTask.h */,
+				E8CEE4BB20486CA40004AB9D /* CommandLineTask.m */,
+			);
+			name = CommandLine;
+			path = "Sources/swift-progress/CommandLine";
+			sourceTree = "<group>";
+		};
+		E8CEE4BD20486CB90004AB9D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E8CEE4BE20486CB90004AB9D /* UI */,
+			);
+			name = Core;
+			path = Sources/Core;
+			sourceTree = "<group>";
+		};
+		E8CEE4BE20486CB90004AB9D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E8CEE4BF20486CB90004AB9D /* Views */,
+				E8CEE4C420486CB90004AB9D /* WindowControllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E8CEE4BF20486CB90004AB9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E8CEE4C220486CB90004AB9D /* UXViewFactory.h */,
+				E8CEE4C320486CB90004AB9D /* UXViewFactory.m */,
+				E8CEE4C020486CB90004AB9D /* UXToolbarStatusView.h */,
+				E8CEE4C120486CB90004AB9D /* UXToolbarStatusView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E8CEE4C420486CB90004AB9D /* WindowControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E8CEE4C520486CB90004AB9D /* UXWindowController.h */,
+				E8CEE4C620486CB90004AB9D /* UXWindowController.m */,
+			);
+			path = WindowControllers;
+			sourceTree = "<group>";
+		};
+		E8CEE4CA20486CCB0004AB9D /* PaintCode */ = {
+			isa = PBXGroup;
+			children = (
+				E8CEE4DE20486D5B0004AB9D /* SPStyleKit.h */,
+				E8CEE4DF20486D5C0004AB9D /* SPStyleKit.m */,
+			);
+			name = PaintCode;
+			path = "Sources/swift-progress/PaintCode";
+			sourceTree = "<group>";
+		};
+		E8CEE4CD20486CCB0004AB9D /* WindowControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E8CEE4CE20486CCB0004AB9D /* SPWindowController.h */,
+				E8CEE4CF20486CCB0004AB9D /* SPWindowController.m */,
+			);
+			name = WindowControllers;
+			path = "Sources/swift-progress/WindowControllers";
+			sourceTree = "<group>";
+		};
+		E8CEE4D020486CCB0004AB9D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E8CEE4D320486CCB0004AB9D /* SPTableLogViewController.h */,
+				E8CEE4D420486CCB0004AB9D /* SPTableLogViewController.m */,
+				E8CEE4D120486CCB0004AB9D /* SPRawLogViewController.h */,
+				E8CEE4D220486CCB0004AB9D /* SPRawLogViewController.m */,
+				E8CEE4D520486CCB0004AB9D /* SPTabViewController.h */,
+				E8CEE4D620486CCB0004AB9D /* SPTabViewController.m */,
+			);
+			name = ViewControllers;
+			path = "Sources/swift-progress/ViewControllers";
+			sourceTree = "<group>";
+		};
+		E8F1F34D2048951000CEFF90 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E8F1F34E2048952F00CEFF90 /* SPLineTableViewCell.h */,
+				E8F1F34F2048952F00CEFF90 /* SPLineTableViewCell.m */,
+			);
+			name = Views;
+			path = "Sources/swift-progress/Views";
+			sourceTree = "<group>";
+		};
+		E8F1F35D2048AD2800CEFF90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8F1F35E2048AD3400CEFF90 /* SPLineItem.h */,
+				E8F1F35F2048AD3400CEFF90 /* SPLineItem.m */,
+			);
+			name = Model;
+			path = "Sources/swift-progress/Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8CEE4572048364B0004AB9D /* swift-progress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8CEE45F2048364B0004AB9D /* Build configuration list for PBXNativeTarget "swift-progress" */;
+			buildPhases = (
+				E8CEE4542048364B0004AB9D /* Sources */,
+				E8CEE4552048364B0004AB9D /* Frameworks */,
+				E8CEE4562048364B0004AB9D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift-progress";
+			productName = "swift-progress";
+			productReference = E8CEE4582048364B0004AB9D /* swift-progress */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8CEE4502048364B0004AB9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ZeeZide;
+				TargetAttributes = {
+					E8CEE4572048364B0004AB9D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E8CEE4532048364B0004AB9D /* Build configuration list for PBXProject "swift-progress" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8CEE44F2048364B0004AB9D;
+			productRefGroup = E8CEE4592048364B0004AB9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8CEE4572048364B0004AB9D /* swift-progress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8CEE4542048364B0004AB9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CEE4BC20486CA40004AB9D /* CommandLineTask.m in Sources */,
+				E8CEE4D920486CCB0004AB9D /* SPRawLogViewController.m in Sources */,
+				E8CEE4C920486CB90004AB9D /* UXWindowController.m in Sources */,
+				E8CEE4D820486CCB0004AB9D /* SPWindowController.m in Sources */,
+				E8CEE4DB20486CCB0004AB9D /* SPTabViewController.m in Sources */,
+				E8CEE4C720486CB90004AB9D /* UXToolbarStatusView.m in Sources */,
+				E8F1F3502048952F00CEFF90 /* SPLineTableViewCell.m in Sources */,
+				E8CEE4C820486CB90004AB9D /* UXViewFactory.m in Sources */,
+				E8F1F3602048AD3400CEFF90 /* SPLineItem.m in Sources */,
+				E8CEE4B820486C9C0004AB9D /* AppDelegate.m in Sources */,
+				E8CEE4DD20486CD50004AB9D /* main.m in Sources */,
+				E8CEE4DA20486CCB0004AB9D /* SPTableLogViewController.m in Sources */,
+				E8CEE4E020486D5C0004AB9D /* SPStyleKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E8CEE45D2048364B0004AB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wno-nullability-completeness";
+			};
+			name = Debug;
+		};
+		E8CEE45E2048364B0004AB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wno-nullability-completeness";
+			};
+			name = Release;
+		};
+		E8CEE4602048364B0004AB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8CEE4612048364B0004AB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8CEE4532048364B0004AB9D /* Build configuration list for PBXProject "swift-progress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CEE45D2048364B0004AB9D /* Debug */,
+				E8CEE45E2048364B0004AB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8CEE45F2048364B0004AB9D /* Build configuration list for PBXNativeTarget "swift-progress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CEE4602048364B0004AB9D /* Debug */,
+				E8CEE4612048364B0004AB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8CEE4502048364B0004AB9D /* Project object */;
+}
