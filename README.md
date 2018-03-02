@@ -5,6 +5,7 @@
 
 ![Swift4](https://img.shields.io/badge/swift-4-blue.svg)
 ![macOS](https://img.shields.io/badge/os-macOS-green.svg?style=flat)
+[![homebrew](https://img.shields.io/homebrew/v/cake.svg)](https://github.com/SwiftXcode/homebrew-swiftxcode)
 ![Travis](https://travis-ci.org/SwiftXcode/swift-progress.svg?branch=develop)
 
 Visualize SPM progress in a window.
