@@ -10,7 +10,7 @@
 
 Visualize SPM progress in a window.
 
-<center><img src="http://zeezide.com/img/swift-progress-screenshot.png" /></center>
+<center><img src="http://zeezide.com/img/swift-progress-screenshot-down.png" /></center>
 
 ### Who
 
