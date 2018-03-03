@@ -1,5 +1,5 @@
 <h2>swift-progress
-  <img src="http://zeezide.com/img/SwiftXcodePkgIcon128.png"
+  <img src="http://zeezide.com/img/SwiftXcodePkgIcon.svg"
        align="right" width="128" height="128" />
 </h2>
 
@@ -9,6 +9,8 @@
 ![Travis](https://travis-ci.org/SwiftXcode/swift-progress.svg?branch=master)
 
 Visualize SPM progress in a window.
+
+<center><img src="http://zeezide.com/img/swift-progress-screenshot-down.png" /></center>
 
 ### Who
 
