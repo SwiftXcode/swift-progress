@@ -197,10 +197,15 @@
 - (void)switchTabs:(id)_sender {
   if (![_sender isKindOfClass:[NSToolbarItem class]])
     return;
-  
-  NSToolbarItem *tbi = (__typeof(tbi))_sender;
-  NSTabView     *tv  = tabVC.tabView;
-  [tv selectTabViewItemWithIdentifier:tbi.itemIdentifier];
+
+  // I've seen a deadlock in NSViewHierarchyLock when
+  // the tableview is updating while the tab is switched.
+  // Hope this may easen the issue :->
+  dispatch_async(dispatch_get_main_queue(), ^{
+    NSToolbarItem *tbi = (__typeof(tbi))_sender;
+    NSTabView     *tv  = tabVC.tabView;
+    [tv selectTabViewItemWithIdentifier:tbi.itemIdentifier];
+  });
 }
 
 @end
