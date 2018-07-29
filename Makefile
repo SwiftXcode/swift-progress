@@ -22,4 +22,7 @@ uninstall :
 # rules
 
 $(SWIFT_PROGRESS_BUILD_RESULT) :
-	xcodebuild -target $(PACKAGE_NAME) -configuration $(CONFIGURATION)
+	xcodebuild -target $(PACKAGE_NAME) \
+	           -configuration $(CONFIGURATION) \
+		   -scheme $(PACKAGE_NAME) \
+		   -derivedDataPath $(DERIVED_DATA_DIR)
